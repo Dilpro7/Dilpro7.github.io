@@ -468,10 +468,20 @@ b, strong {
   color: #ffc200;
 }
 .floating-icon{
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
-  background-color: red;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #6d65fa;
+  color: black;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 11px;
+  border-radius: 1rem;
+  z-index: 15;
+  box-shadow: 0 0 7px 2px black;
 }
 
 @media (min-width: 1270px) {
@@ -539,7 +549,7 @@ b, strong {
   }
 
   .custom-btn {
-    display: block;
+    /* display: block; */
     margin: 10px 0;
   }
 
